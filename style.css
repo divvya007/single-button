@@ -1,0 +1,44 @@
+body {
+  margin: 0%;
+}
+
+.menuContents {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: rgb(19, 17, 17);
+  color: aliceblue;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.search {
+  border: 2px solid black;
+  align-self: center;
+  margin-right: 25px;
+}
+
+.dropBox {
+  border: 1px solid black;
+  width: fit-content;
+  position: absolute;
+  z-index: 0;
+  padding: 10px;
+  display: none;
+  margin-left: -12px;
+  background-color: aliceblue;
+}
+
+#contentLink {
+  list-style-type: none;
+  cursor: pointer;
+  margin-left: -28px;
+  color: blue;
+}
+
+.navBar {
+  background-color: rgb(20, 22, 22);
+  border: 2px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
